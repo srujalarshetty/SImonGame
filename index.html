@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="simon-wrapper">
+
+      <!-- Score display -->
+      <div class="hud">
+        <div class="score-box">
+          <div class="score-label">Round</div>
+          <div class="score-value" id="round">0</div>
+        </div>
+        <div class="score-box">
+          <div class="score-label">Best</div>
+          <div class="score-value" id="best">0</div>
+        </div>
+      </div>
+
+      <!-- Status message shown to player -->
+      <div class="status-msg" id="status">Press Start to play</div>
+
+      <!-- Game board: 4 coloured quadrants + center button -->
+      <div class="board">
+        <div class="btn btn-green"  id="btn-green"  data-color="green"  role="button" aria-label="Green"></div>
+        <div class="btn btn-red"    id="btn-red"    data-color="red"    role="button" aria-label="Red"></div>
+        <div class="btn btn-yellow" id="btn-yellow" data-color="yellow" role="button" aria-label="Yellow"></div>
+        <div class="btn btn-blue"   id="btn-blue"   data-color="blue"   role="button" aria-label="Blue"></div>
+
+        <!-- Center Start/Stop button -->
+        <div class="center" id="start-btn" role="button" aria-label="Start game">
+          <span class="center-label" id="start-label">START</span>
+        </div>
+      </div>
+
+      <!-- Speed selector -->
+      <div class="controls">
+        <label for="speed-select">Speed:</label>
+        <select id="speed-select">
+          <option value="600">Normal</option>
+          <option value="400">Fast</option>
+          <option value="250">Blazing</option>
+        </select>
+      </div>
+
+      <!-- Best score ribbon -->
+      <div class="best-label" id="streak"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
