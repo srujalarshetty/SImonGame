@@ -15,7 +15,7 @@ A browser-based recreation of the classic Simon memory game, built with vanilla 
 - Sound effects generated using the Web Audio API (no audio files needed)
 - Three speed modes: Normal, Fast, and Blazing
 - Round counter and best score tracker
-- Visual and audio feedback for correct and incorrect inputs
+
 
 ## Built With
 
