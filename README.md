@@ -1,4 +1,4 @@
-# Simon Game 🎮
+# Simon Game 
 
 A browser-based recreation of the classic Simon memory game, built with vanilla HTML, CSS, and JavaScript — no frameworks, no libraries.
 
@@ -23,6 +23,3 @@ A browser-based recreation of the classic Simon memory game, built with vanilla 
 - CSS3
 - JavaScript (ES6+) — async/await, Promises, Web Audio API, DOM manipulation
 
-## Getting Started
-
-No installation needed. Just download the files and open `index.html` in any modern browser.
